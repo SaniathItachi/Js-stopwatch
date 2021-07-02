@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(65, 65, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.digit{
+    font-size: 150px;
+    font-weight: 600;
+    color: white;
+}
+.txt{
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+}
+#btn-container{
+    text-align: center;
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 7px 25px;
+    border: none;
+    
+}
+#start{
+    background-color: rgb(44, 219, 219);
+    
+   
+}
+#stop{
+    background-color: rgb(42, 42, 216);
+
+}
+#reset{
+    background-color: crimson;
+
+}
